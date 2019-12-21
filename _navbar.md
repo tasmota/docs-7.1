@@ -17,3 +17,5 @@
     * [Troubleshooting](/help/Troubleshooting)
     * [Device Recovery](/help/Device-Recovery)
     * [Discord Help](https://discord.gg/Ks2Kzd4)
+* Versioned Docs
+    * [<v6.7 Documentation](https://github.com/arendst/Tasmota/wiki)
