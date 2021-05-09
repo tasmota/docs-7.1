@@ -1110,7 +1110,7 @@ To solve it we can use rules.
 SwitchTopic 0
 
 Rule1
-  on System#Boot var1 0 endon
+  on System#Boot do var1 0 endon
   on Switch2#State do backlog add1 1; event START endon
   on event#START do event BELL=%var1% endon
   on event#BELL=1.000 do backlog publish cmnd/bell/power on; RuleTimer1 60 endon
